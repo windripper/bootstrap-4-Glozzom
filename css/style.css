@@ -10,6 +10,10 @@
     border-left: 5px solid #444;
 }
 
+.navbar .nav-item:hover {
+    background: gray;
+}
+
 .carousel-item {
     min-height: 450px;
 }
@@ -52,6 +56,23 @@
     height: 100%;
 
     background-color: rgba(0,0,0, 0.7);
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+
+    text-align: center;
+    color: #ffffff;
+
+    background: url("../img/media.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0 -300px;
+}
+
+#video-play a {
+    color: #ffffff;
 }
 
 @media (max-width: 768px) {
